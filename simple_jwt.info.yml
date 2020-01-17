@@ -1,0 +1,6 @@
+name: Simple JWT Authentication
+type: module
+description: Provides functionality for simple authenticating with JSON Web Token.
+core: 8.x
+package: Web services
+configure: simple_jwt.simple_jwt_config_form

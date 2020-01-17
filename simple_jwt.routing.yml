@@ -1,0 +1,9 @@
+simple_jwt.simple_jwt_config_form:
+  path: '/admin/config/system/simple_jwt'
+  defaults:
+    _form: '\Drupal\simple_jwt\Form\ConfigForm'
+    _title: 'Simple JWT Configuration'
+  requirements:
+    _permission: 'administer jwt'
+  options:
+    _admin_route: TRUE

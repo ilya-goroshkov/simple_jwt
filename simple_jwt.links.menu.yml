@@ -1,0 +1,6 @@
+simple_jwt.jwt_config_form:
+  title: 'Simple JWT Authentication'
+  route_name: simple_jwt.simple_jwt_config_form
+  description: 'Configures the Simple JWT Authentication module'
+  parent: system.admin_config_system
+  weight: 99

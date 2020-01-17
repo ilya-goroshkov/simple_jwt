@@ -1,0 +1,4 @@
+administer simple jwt:
+  title: 'Administer Simple JWT module'
+  description: 'Provides access to the Simple JWT administration pages.'
+  restrict access: TRUE

@@ -1,0 +1,6 @@
+services:
+  simple_jwt.access_checker:
+    class: Drupal\simple_jwt\Access\SimpleJWTAccessCheck
+    arguments: ['@request_stack', '@config.factory']
+    tags:
+      - { name: access_check, applies_to: _simple_jwt_access_check }
